@@ -1,0 +1,15 @@
+{
+  "name": "discord-transcript-generator",
+  "version": "1.0.0",
+  "description": "A script to generate transcripts from a Discord channel",
+  "author": "Kai Cataldo <kai@kaicataldo.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "generate-transcript": "./bin/generate-transcript.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
