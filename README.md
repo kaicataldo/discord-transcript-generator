@@ -12,7 +12,7 @@ A registered Discord bot is required to use this utility. If you haven't already
 
 ### Arguments
 
-`date`: The date to generate the transcript from. The date should be formatted to match the output of `Date.prototype.toLocaleDateString()` in your locale.
+`date`: The date to generate the transcript from. This should be a valid date for JavaScript's `Date` constructor. It is treated as UTC.
 
 `output`: An output file path. This is resolved relative to the current working directory.
 
