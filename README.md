@@ -12,15 +12,15 @@ A registered Discord bot is required to use this utility. If you haven't already
 
 ### Arguments
 
-**MEETING_DATE:** The date to generate the transcript from. The date should be formatted to match the output of `Date.prototype.toLocaleDateString()` in your locale.
+`MEETING_DATE`: The date to generate the transcript from. The date should be formatted to match the output of `Date.prototype.toLocaleDateString()` in your locale.
 
-**MEETING_NAME:** The name of the meeting. Used to add a title to the generated transcript.
+`MEETING_NAME`: The name of the meeting. Used to add a title to the generated transcript.
 
-**TRANSCRIPT_LOCATION:** A relative path to the directory the transcript should be created in. This is resolved relative to the current working directory.
+`TRANSCRIPT_LOCATION`: A relative path to the directory the transcript should be created in. This is resolved relative to the current working directory.
 
-**CHANNEL_ID:** The ID of the Discord Channel to generate the transcript from.
+`CHANNEL_ID`: The ID of the Discord Channel to generate the transcript from.
 
-**BOT_TOKEN:** The token for the registered Discord bot. The user must first register a Discord Bot and add it to their server to use this utility.
+`BOT_TOKEN`: The token for the registered Discord bot. The user must first register a Discord Bot and add it to their server to use this utility.
 
 ### Example Usage
 
