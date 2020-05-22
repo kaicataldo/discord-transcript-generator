@@ -7,7 +7,7 @@ const generateTranscript = require('../lib');
 
 (async function() {
   try {
-    await generateTranscript(token, id, date, output, name);
+    await generateTranscript({ token, id, date, output, name });
   } catch (e) {
     console.error(e);
     process.exit(1);
