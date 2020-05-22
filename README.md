@@ -25,5 +25,5 @@ A registered Discord bot is required to use this utility. If you haven't already
 ### Example Usage
 
 ```sh
-./bin/generate-transcript.j --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+./bin/generate-transcript.js --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 ```
