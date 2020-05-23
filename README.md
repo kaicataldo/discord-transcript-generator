@@ -2,6 +2,20 @@
 
 `discord-transcript-generator` is a command-line utility that generates a Markdown transcript for a given day from a Discord Channel. This was developed as a way to easily generate transcripts for [ESLint](https://eslint.org/) Technical Steering Committee meetings from Discord chat logs.
 
+## Installation
+
+```sh
+npm install discord-transcript-generator
+```
+
+or
+
+```sh
+yarn add discord-transcript-generator
+```
+
+The utility can be installed and used locally or globally.
+
 ## Usage
 
 The utility will create the transcript by finding all the messages sent on a given date.
@@ -25,5 +39,5 @@ A registered Discord bot is required to use this utility. If you haven't already
 ### Example Usage
 
 ```sh
-./bin/generate-transcript.js --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+generate-discord-transcript --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 ```
