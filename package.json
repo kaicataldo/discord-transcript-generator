@@ -1,6 +1,6 @@
 {
   "name": "discord-transcript-generator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A command-line utility to generate transcripts from a Discord channel",
   "author": "Kai Cataldo <kai@kaicataldo.com>",
   "license": "MIT",
