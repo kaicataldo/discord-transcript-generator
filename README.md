@@ -27,7 +27,11 @@ The utility will create the transcript by finding all the messages sent on a giv
 
 A registered Discord bot is required to use this utility. If you haven't already done, please follow the instructions [here](https://discordjs.guide/preparations/setting-up-a-bot-application.html) to set it up.
 
-### Arguments
+### CLI usage
+
+When used on the command-line, please use the following arguments.
+
+#### Arguments
 
 `date`: The date to generate the transcript from. This should be a valid date for JavaScript's `Date` constructor. It is treated as UTC.
 
@@ -39,7 +43,7 @@ A registered Discord bot is required to use this utility. If you haven't already
 
 `name` (optional): The name of the meeting. Used to add a title to the generated transcript. If not given, only the given date will appear in the title.
 
-### Example Usage
+#### Example
 
 ```sh
 generate-discord-transcript --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
