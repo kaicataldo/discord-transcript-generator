@@ -2,8 +2,12 @@
   "name": "discord-transcript-generator",
   "version": "1.0.1",
   "description": "A command-line utility to generate transcripts from a Discord channel",
-  "author": "Kai Cataldo <kai@kaicataldo.com>",
   "license": "MIT",
+  "author": "Kai Cataldo <kai@kaicataldo.com>",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/kaicataldo"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaicataldo/discord-transcript-generator.git"
