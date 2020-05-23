@@ -1,5 +1,8 @@
 # discord-transcript-generator
 
+[![npm](https://img.shields.io/npm/v/discord-transcript-generator.svg?style=flat-square)](https://www.npmjs.com/package/discord-transcript-generator/)
+[![node](https://img.shields.io/node/v/discord-transcript-generator.svg?style=flat-square)](https://nodejs.org/en/)
+
 `discord-transcript-generator` is a command-line utility that generates a Markdown transcript for a given day from a Discord Channel. This was developed as a way to easily generate transcripts for [ESLint](https://eslint.org/) Technical Steering Committee meetings from Discord chat logs.
 
 ## Installation
