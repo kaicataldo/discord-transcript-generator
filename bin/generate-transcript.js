@@ -5,7 +5,7 @@
 const { token, id, date, output, name } = require('yargs').argv;
 const generateTranscript = require('../lib');
 
-(async function() {
+(async function () {
   try {
     await generateTranscript({ token, id, date, output, name });
   } catch (e) {
