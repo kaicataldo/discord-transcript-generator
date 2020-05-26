@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/discord-transcript-generator.svg?style=flat-square)](https://www.npmjs.com/package/discord-transcript-generator/)
 [![node](https://img.shields.io/node/v/discord-transcript-generator.svg?style=flat-square)](https://nodejs.org/en/)
 
-`discord-transcript-generator` is a command-line utility that generates a Markdown transcript for a given day from a Discord Channel. This was developed as a way to easily generate transcripts for [ESLint](https://eslint.org/) Technical Steering Committee meetings from Discord chat logs.
+`discord-transcript-generator` is a command-line utility that generates a Markdown transcript for a given day from a Discord Channel's chat logs. This was developed as a way to easily generate transcripts for [ESLint](https://eslint.org/) Technical Steering Committee meetings.
 
 ## Installation
 
@@ -21,11 +21,9 @@ The utility can be installed and used locally or globally.
 
 ## Usage
 
-The utility will create the transcript by finding all the messages sent on a given date.
-
 ### Prerequisites
 
-A registered Discord bot is required to use this utility. If you haven't already done, please follow the instructions [here](https://discordjs.guide/preparations/setting-up-a-bot-application.html) to set it up.
+A registered Discord bot is required to use this utility. If you haven't already done so, please follow the instructions [here](https://discordjs.guide/preparations/setting-up-a-bot-application.html) to set one up.
 
 ### CLI usage
 
@@ -46,5 +44,10 @@ When used on the command-line, please use the following arguments.
 #### Example
 
 ```sh
-generate-discord-transcript --date=5/21/2020 --name="ESLint TSC Meeting" --output="./path/to/transcripts/2020-05-21.md" --id=735298510354839572 token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+generate-discord-transcript \
+  --date=5/21/2020 \
+  --output=./path/to/transcripts/2020-05-21.md \
+  --id=735298510354839572 \
+  --token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 \
+  --name="ESLint TSC Meeting"
 ```
