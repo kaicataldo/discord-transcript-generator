@@ -55,12 +55,12 @@
     "yargs": "^15.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^9.1.1",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-node": "^11.1.0",
-    "husky": "^4.2.5",
+    "husky": "^8.0.3",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
   }
